@@ -1,0 +1,23 @@
+{
+  "name": "x-education",
+  "version": "2.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "zod": "^3.21.4"
+  },
+  "author": "Shahid Monowar",
+  "license": "MIT"
+}
