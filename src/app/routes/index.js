@@ -1,11 +1,12 @@
 const express = require("express");
+const courseRoute = require("./course.route");
 const router = express.Router();
 
 const appRoutes = [
-  // {
-  //   path: "/user",
-  //   route: userRoute,
-  // },
+  {
+    path: "/course",
+    route: courseRoute,
+  },
 ];
 
 appRoutes.forEach((route) => router.use(route.path, route.route));
